@@ -129,9 +129,16 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
+
+
 @media only screen and (max-width:376px) {
     html {
         font-size: 80%;
+    }
+    body {
+        background-image: url(images/bg-pattern-top-mobile.svg),url(images/bg-pattern-bottom-mobile.svg);
+        background-position: bottom 100% right 100%,top 100% left 100%;
+        background-attachment: fixed;
     }
     .main_container {
         height: 100vh;
